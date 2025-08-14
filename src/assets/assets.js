@@ -2,10 +2,8 @@ import figma from "./figma.svg";
 import vite from "./vite.svg";
 import firebase from "./firebase.svg";
 import web from "./webview.png";
-import contacts from "./conatcts.mp4";
 import contact from "./contact.png";
 import ticTacToe from "./tttss.png";
-import ttt from "./ttt.mp4";
 import wapi from "./wapi.png";
 import profile from "./profile.jpg";
 
@@ -65,7 +63,7 @@ export const projects = [
     description:
       "A web application for easy contact management, featuring adding, viewing, searching, and sorting.",
     image: contact,
-    liveUrl: contacts,
+    liveUrl: null,
     githubUrl: "https://github.com/grgankita/Contacts.git",
     techStack: [
       "React",
@@ -82,7 +80,7 @@ export const projects = [
     description:
       "Developed an interactive browser-based Tic-Tac-Toe game with a responsive UI. Implemented game state management with React hooks, dynamic winner detection logic, and a reset feature. Designed a clean, minimal interface ensuring intuitive gameplay for two players.",
     image: ticTacToe,
-    liveUrl: ttt,
+    liveUrl: null,
     githubUrl: "https://github.com/grgankita/Tic-Tac-Toe.git",
     techStack: ["React", "Tailwind"],
   },
